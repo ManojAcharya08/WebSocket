@@ -49,9 +49,6 @@ A real-time chat application built with **Spring Boot**, **WebSocket (STOMP)**, 
 3. **Build and run:**
     ```
     ./mvnw spring-boot:run
-    # or
-    ./gradlew bootRun
-    ```
 
 4. **Open the chat UI:**
     ```
