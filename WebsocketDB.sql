@@ -1,0 +1,11 @@
+CREATE TABLE message (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  sender VARCHAR(255),
+  reciever VARCHAR(255),
+  content VARCHAR(255),
+  timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+TRUNCATE TABLE message;
+select * from message;
+ALTER TABLE message AUTO_INCREMENT = 1;
